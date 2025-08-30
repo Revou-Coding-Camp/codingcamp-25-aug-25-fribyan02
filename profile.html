@@ -6,33 +6,34 @@
   <title>Company Profile - Tentang Kami</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-gray-50 text-gray-800">
   <!-- Navbar -->
-  <header class="navbar shadow sticky top-0 z-40 bg-white">
-    <div class="container mx-auto flex justify-between items-center px-4 py-3">
-      <div class="logo text-xl font-bold text-blue-600">Freebee</div>
-
+  <header class="navbar shadow sticky top-0 z-40">
+    <div class="container flex justify-between items-center">
+      <div class="logo">Freebee</div>
+  
       <!-- Hamburger -->
       <button class="hamburger md:hidden text-2xl" id="hamburger">
         <i class="fas fa-bars"></i>
       </button>
-
+  
       <!-- Nav Links -->
       <ul class="nav-links hidden md:flex space-x-6" id="nav-links">
-        <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
-        <li><a href="profile.html" class="hover:text-blue-500">Our Profile</a></li>
-        <li><a href="portofolio.html" class="hover:text-blue-500">Portfolio</a></li>
-        <li><a href="index.html#message" class="hover:text-blue-500">Message Us</a></li>
+        <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="profile.html" class="hover:text-yellow-400">Our Profile</a></li>
+        <li><a href="portofolio.html" class="hover:text-yellow-400">Portfolio</a></li>
+        <li><a href="index.html#message" class="hover:text-yellow-400">Message Us</a></li>
       </ul>
     </div>
-
+  
     <!-- Mobile Menu -->
-    <ul class="mobile-nav hidden flex-col space-y-4 px-6 py-4 bg-white border-t md:hidden" id="mobile-nav">
-      <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
-      <li><a href="profile.html" class="hover:text-blue-500">Our Profile</a></li>
-      <li><a href="portofolio.html" class="hover:text-blue-500">Portfolio</a></li>
-      <li><a href="message.html" class="hover:text-blue-500">Message Us</a></li>
+    <ul class="mobile-nav hidden flex-col space-y-4 px-6 py-4 bg-blue-800 md:hidden" id="mobile-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Our Profile</a></li>
+      <li><a href="portofolio.html">Portfolio</a></li>
+      <li><a href="index.html#message">Message Us</a></li>
     </ul>
   </header>
 
