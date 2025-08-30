@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <header class="navbar shadow sticky top-0 z-40 bg-white">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <div class="logo text-xl font-bold text-blue-600">Freebee</div>
+
+      <!-- Hamburger -->
+      <button class="hamburger md:hidden text-2xl" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Nav Links -->
+      <ul class="nav-links hidden md:flex space-x-6" id="nav-links">
+        <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+        <li><a href="profile.html" class="hover:text-blue-500">Our Profile</a></li>
+        <li><a href="portofolio.html" class="hover:text-blue-500 font-semibold text-blue-600">Portfolio</a></li>
+        <li><a href="index.html#contact" class="hover:text-blue-500">Message Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul class="mobile-nav hidden flex-col space-y-4 px-6 py-4 bg-white border-t md:hidden" id="mobile-nav">
+      <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+      <li><a href="profile.html" class="hover:text-blue-500">Our Profile</a></li>
+      <li><a href="portofolio.html" class="hover:text-blue-500 font-semibold text-blue-600">Portfolio</a></li>
+      <li><a href="index.html#contact" class="hover:text-blue-500">Message Us</a></li>
+    </ul>
+  </header>
+
+  <!-- Content -->
+  <section class="container mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-center text-blue-600 mb-10">Our Portfolio</h1>
+
+    <!-- Grid Portfolio -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Card 1 -->
+      <a href="https://github.com/Freebee25/Gudang-pwa.git" class="group block bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="img/gudang.PNG" alt="Project 1" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold text-gray-800">Inventori</h2>
+          <p class="text-gray-600 text-sm mt-1">Aplikasi Inventori Gudang.</p>
+        </div>
+      </a>
+
+      <!-- Card 2 -->
+      <a href="https://github.com/Freebee25/FileRepository.git" class="group block bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="img/filerepo.jpg" alt="Project 2" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold text-gray-800">File Repository</h2>
+          <p class="text-gray-600 text-sm mt-1">Aplikasi penyimpanan file yang terenkripsi.</p>
+        </div>
+      </a>
+
+      <!-- Card 3 -->
+      <a href="https://freebee25.github.io/milcup/" class="group block bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="img/milcup.png" alt="Project 3" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold text-gray-800">Milcup</h2>
+          <p class="text-gray-600 text-sm mt-1">Web Coffee Shop Milcup.</p>
+        </div>
+      </a>
+
+      <!-- Card 4 -->
+      <a href="https://github.com/Freebee25/POS-System.git" class="group block bg-white shadow rounded-lg overflow-hidden hover:shadow-lg transition">
+        <img src="img/pos.webp" alt="Project 4" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-4">
+          <h2 class="text-xl font-semibold text-gray-800">Pos Sistem</h2>
+          <p class="text-gray-600 text-sm mt-1">Aplikasi Kasir.</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-800 text-gray-300 text-sm">
+    © 2025 Freebee. All Rights Reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

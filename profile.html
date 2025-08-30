@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile - Tentang Kami</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <header class="navbar shadow sticky top-0 z-40 bg-white">
+    <div class="container mx-auto flex justify-between items-center px-4 py-3">
+      <div class="logo text-xl font-bold text-blue-600">Freebee</div>
+
+      <!-- Hamburger -->
+      <button class="hamburger md:hidden text-2xl" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Nav Links -->
+      <ul class="nav-links hidden md:flex space-x-6" id="nav-links">
+        <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+        <li><a href="profile.html" class="hover:text-blue-500">Our Profile</a></li>
+        <li><a href="portofolio.html" class="hover:text-blue-500">Portfolio</a></li>
+        <li><a href="index.html#message" class="hover:text-blue-500">Message Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul class="mobile-nav hidden flex-col space-y-4 px-6 py-4 bg-white border-t md:hidden" id="mobile-nav">
+      <li><a href="index.html" class="hover:text-blue-500">Home</a></li>
+      <li><a href="profile.html" class="hover:text-blue-500">Our Profile</a></li>
+      <li><a href="portofolio.html" class="hover:text-blue-500">Portfolio</a></li>
+      <li><a href="message.html" class="hover:text-blue-500">Message Us</a></li>
+    </ul>
+  </header>
+
+  <!-- Content -->
+  <section class="container mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-center text-blue-600 mb-10">Tentang Kami</h1>
+
+    <!-- Card 1 -->
+    <div class="flex flex-col md:flex-row items-center bg-white shadow rounded-lg overflow-hidden mb-8">
+      <img src="img/cyber.png" alt="Gambar 1" class="w-full md:w-1/2 h-64 object-cover">
+      <div class="p-6 md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-3">Siapa Kami?</h2>
+        <p class="text-gray-600 leading-relaxed">
+            Kami adalah perusahaan yang bergerak di bidang teknologi informasi dengan spesialisasi pada pengembangan perangkat lunak dan sistem keamanan digital. 
+            Kami menggabungkan keahlian dalam pemrograman, arsitektur sistem, dan keamanan siber untuk menciptakan solusi yang tangguh, efisien, dan scalable.
+            Dengan pendekatan berbasis algoritma dan enkripsi tingkat lanjut, kami memastikan setiap sistem yang kami bangun memiliki integritas, kerahasiaan, dan ketahanan terhadap ancaman digital. 
+            Tim kami terdiri dari para profesional yang berpengalaman dalam membangun aplikasi web, mengelola basis data yang kompleks, serta merancang alur kerja yang aman dan terstruktur.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="flex flex-col md:flex-row-reverse items-center bg-white shadow rounded-lg overflow-hidden">
+      <img src="img/programing.png" alt="Gambar 2" class="w-full md:w-1/2 h-64 object-cover">
+      <div class="p-6 md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-3">Misi Kami</h2>
+        <p class="text-gray-600 leading-relaxed">
+          Misi kami adalah memberikan layanan terbaik dengan teknologi mutakhir 
+          yang dapat meningkatkan produktivitas, efisiensi, dan daya saing klien kami. 
+          Kami percaya kolaborasi adalah kunci kesuksesan. <br>
+          Visualisasi dalam gambar kami mencerminkan identitas perusahaan yang berakar pada dunia cyber dan pemrograman. 
+          Elemen seperti jaringan digital, kode-kode biner, dan antarmuka sistem menggambarkan komitmen kami terhadap keamanan, efisiensi, dan inovasi teknologi.
+          Gaya cyber yang futuristik menunjukkan kesiapan kami menghadapi tantangan era digital, sementara simbol-simbol pemrograman menegaskan fondasi teknis yang menjadi kekuatan utama kami.
+          Kami percaya bahwa teknologi bukan hanya tentang efisiensi, tetapi juga tentang kepercayaan. Karena itu, kami berkomitmen untuk menghadirkan solusi digital yang tidak hanya canggih, tetapi juga aman dan dapat diandalkan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-800 text-gray-300 text-sm">
+    © 2025 Freebee. All Rights Reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
